@@ -77,17 +77,14 @@ def computer_make_move():
             valid_move = True
 
 def check_win():
-    win = False
-
+    
     for i in range(3):
         if board[i][0] == board[i][1] and board[i][1] == board[i][2]:
             return board[i][0]
-            break
     
     for i in range(3):
         if board[0][i] == board[1][i] and board[1][i] == board[2][i]:
             return board[0][i]
-            break
    
     if board[0][0] == board[1][1] and board[1][1] == board[2][2]:
             return board[0][0]

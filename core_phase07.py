@@ -59,7 +59,9 @@ def player_make_move():
         if process_move(pl_move,1):
             valid_move = True
 
-
+# Step 7 : 
+#
+# add computer move
 
 def computer_make_move():
     valid_move = False

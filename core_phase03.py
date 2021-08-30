@@ -11,9 +11,10 @@ def draw_board():
     row_nr = 1
     for row in board:
         print("-------------")
-        print('|', symbol[row[0]], '|', symbol[row[1]], '|', symbol[row[2]], "|", row_nr )
+        print('|', symbol[row_nr], '|', symbol[row_nr], '|', symbol[row_nr], "|", row_nr )
         row_nr += 1
     print("-------------")
     print()
 
 draw_board()
+
